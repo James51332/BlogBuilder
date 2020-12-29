@@ -4,11 +4,11 @@ NAME=jdab-builder
 BUILDDIR=bin
 
 SRCFILES=\
-src/BlogBuilder/Main.cpp \
-src/BlogBuilder/CommandParser.cpp \
-src/BlogBuilder/FileManager.cpp \
-src/BlogBuilder/Parser.cpp \
-src/BlogBuilder/HTMLBuilder.cpp
+src/Main.cpp \
+src/CommandParser.cpp \
+src/FileManager.cpp \
+src/Parser.cpp \
+src/HTMLBuilder.cpp
 
 FLAGS=\
 -std=c++17
