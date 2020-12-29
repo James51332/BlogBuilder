@@ -10,8 +10,11 @@ src/BlogBuilder/FileManager.cpp \
 src/BlogBuilder/Parser.cpp \
 src/BlogBuilder/HTMLBuilder.cpp
 
+FLAGS=\
+-std=c++17
+
 .PHONY: build
 
 .SILENT:
 build:
-	$(CXX) $(SRCFILES) -std=c++17 -o $(BUILDDIR)/$(NAME)
+	$(CXX) $(SRCFILES) $(FLAGS) -o $(BUILDDIR)/$(NAME)
